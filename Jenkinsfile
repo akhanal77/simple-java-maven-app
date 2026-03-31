@@ -1,5 +1,12 @@
 pipeline {
     agent any
+
+    tools
+   {
+    maven 'm399'
+    jdk 'jdk21'
+   }
+
     
     options {
         skipStagesAfterUnstable()
