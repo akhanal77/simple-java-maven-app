@@ -6,11 +6,7 @@ pipeline {
     maven 'm399'
     jdk 'jdk21'
    }
-<<<<<<< HEAD
-=======
-
     
->>>>>>> 9f034c8497d8bdec274d4cff53a756060a0d7a0d
     options {
         skipStagesAfterUnstable()
     }
